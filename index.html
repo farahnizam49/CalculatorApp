@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Application</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Calculator</h1>
+	<div class="main">
+		<div>
+			<input type="text" name="" class="text" id="result">
+		</div>
+		<div>
+			<button class="clearbtn" onclick="clearResult()">CE</button>
+			<button class="clearbtn" onclick="clearResult()">C</button>
+		</div>
+		<div>
+		    <button class="btn" onclick="getNumber('1/')">1/x</button>
+		    <button class="btn" onclick="square()">x<sup>2</sup></button>
+		    <button class="btn" onclick="squareRoot()">&#8730x</button>
+		    <button class="btn" onclick="getNumber('/')">/</button>
+	    </div>
+	    <div>
+		    <button class="btn" onclick="getNumber('7')">7</button>
+		    <button class="btn" onclick="getNumber('8')">8</button>
+		    <button class="btn" onclick="getNumber('9')">9</button>
+		    <button class="btn" onclick="getNumber('*')">x</button>
+	    </div>
+	    <div>
+		    <button class="btn" onclick="getNumber('4')">4</button>
+		    <button class="btn" onclick="getNumber('5')">5</button>
+		    <button class="btn" onclick="getNumber('6')">6</button>
+		    <button class="btn" onclick="getNumber('-')">-</button>
+	    </div>
+	    <div>
+		    <button class="btn" onclick="getNumber('1')">1</button>
+		    <button class="btn" onclick="getNumber('2')">2</button>
+		    <button class="btn" onclick="getNumber('3')">3</button>
+		    <button class="btn" onclick="getNumber('+')">+</button>
+	    </div>
+	    <div>
+	    	<button class="btn" onclick="getNumber('%')">%</button>
+	    	<button class="btn" onclick="getNumber('0')">0</button>
+	    	<button class="btn" onclick="getNumber('.')">.</button>
+	    	<button class="btn" onclick="getResult()">=</button>
+	    </div>
+	</div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>

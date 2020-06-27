@@ -1,0 +1,52 @@
+body{
+	background-image: url(gradient.jpg);
+	background-repeat: no-repeat;
+}
+h1{
+	text-align: center;
+	font-size: 60px;
+	color: white;
+}
+
+.main{
+	width: 40%; 
+	height: 100%;
+	border: 2px solid white;
+	margin: 0 auto;
+}
+
+.text{
+	width: 97.5%;
+	height: 50px;
+	margin: 3px;
+	font-size: 30px;
+	border-radius: 8px;
+}
+
+.clearbtn{
+	width: 48.7%;
+	height: 50px;
+	font-size: 30px;
+	margin: 3px 3px 0px 2px;
+	border-radius: 8px;
+	background-color: rgba(60,60,60,0.2);
+}
+
+.clearbtn:hover{
+	background-color: #0B5F65;
+	color: white;
+}
+
+.btn{
+	font-size: 30px;
+	width: 23.3%;
+	height: 50px;
+	margin: 3px;
+	border-radius: 8px;
+	background-color: rgba(60,60,60,0.2);
+}
+
+.btn:hover{
+	background-color: #0B5F65;
+	color: white;
+}
